@@ -1,0 +1,6 @@
+{
+  "name": "Agendamentos & Gestão Multi-Segmento",
+  "description": "Plataforma profissional de agendamentos e gestão de atendimentos adaptável para múltiplos segmentos de negócios com motor de demos e personalização visual.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
