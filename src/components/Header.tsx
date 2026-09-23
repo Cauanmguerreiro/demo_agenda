@@ -98,25 +98,18 @@ export const Header: React.FC<HeaderProps> = ({
         </span>
       </div>
 
-      {/* Zone 3: Actions (Demo switcher, Presentation toggle, Primary CTA, Responsible profile) */}
+      {/* Zone 3: Actions (Presentation toggle, Primary CTA, Responsible profile) */}
       <div className="flex items-center gap-2 sm:gap-3">
         {!presentationMode ? (
-          <>
-            <DemoSwitcher
-              currentDemoId={config.id}
-              onSelectDemo={onSelectDemo}
-            />
-
-            <button
-              type="button"
-              onClick={onTogglePresentation}
-              className="hidden sm:inline-flex items-center gap-1.5 px-2.5 py-1.5 text-xs font-medium rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors border border-transparent hover:border-slate-200"
-              title="Ocultar elementos de configuração para demonstrar ao cliente"
-            >
-              <Eye className="w-3.5 h-3.5" />
-              <span>Apresentação</span>
-            </button>
-          </>
+          <button
+            type="button"
+            onClick={onTogglePresentation}
+            className="hidden sm:inline-flex items-center gap-1.5 px-2.5 py-1.5 text-xs font-medium rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors border border-transparent hover:border-slate-200"
+            title="Ocultar elementos de configuração para demonstrar ao cliente"
+          >
+            <Eye className="w-3.5 h-3.5" />
+            <span>Modo Apresentação</span>
+          </button>
         ) : (
           <button
             type="button"

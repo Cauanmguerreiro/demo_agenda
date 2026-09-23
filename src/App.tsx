@@ -26,6 +26,7 @@ import {
 import { Header } from './components/Header';
 import { Sidebar } from './components/Sidebar';
 import { NewAppointmentModal } from './components/NewAppointmentModal';
+import { FloatingDemoSelector } from './components/FloatingDemoSelector';
 
 import { Dashboard } from './pages/Dashboard';
 import { Agenda } from './pages/Agenda';
@@ -383,6 +384,12 @@ export default function App() {
         onAddAppointment={handleAddAppointment}
         initialTime={presetTime}
         initialDate="Hoje"
+      />
+      {/* Floating Segment Switcher Widget (Does not clutter header/screen) */}
+      <FloatingDemoSelector
+        currentDemoId={currentDemoId}
+        onSelectDemo={handleSelectDemo}
+        presentationMode={presentationMode}
       />
     </div>
   );
