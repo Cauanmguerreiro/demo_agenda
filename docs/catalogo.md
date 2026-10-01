@@ -1,0 +1,76 @@
+# Catálogo de demonstrações CodeBrand
+
+70 perfis em 14 famílias. Use o domínio da publicação antes de cada rota.
+
+| Negócio                   | Segmento                                 | Solução                | Rota                           |
+| ------------------------- | ---------------------------------------- | ---------------------- | ------------------------------ |
+| Forma Studio              | Moda & vestuário                         | Lojas & catálogos      | `/?demo=moda`                  |
+| Brasa Burger              | Hamburgueria                             | Cardápios & delivery   | `/?demo=hamburgueria`          |
+| Chave Negócios            | Vendas imobiliárias                      | CRM & vendas           | `/?demo=imobiliaria-crm`       |
+| Clara BPO                 | BPO financeiro                           | Financeiro & BPO       | `/?demo=bpo`                   |
+| Órbita Studio             | Agência criativa                         | Projetos & operação    | `/?demo=agencia-projetos`      |
+| Trilha Tech               | Escola de tecnologia                     | Cursos & educação      | `/?demo=escola-tech`           |
+| Habita                    | Imóveis residenciais                     | Imóveis & espaços      | `/?demo=imoveis`               |
+| Rota Sul                  | Transportadora                           | Logística & entregas   | `/?demo=transportadora`        |
+| Nexo Help                 | Suporte de TI                            | Suporte & solicitações | `/?demo=helpdesk`              |
+| Prateleira                | Estoque de varejo                        | Estoque & produção     | `/?demo=estoque-varejo`        |
+| Flow SaaS                 | Software por assinatura                  | SaaS & assinaturas     | `/?demo=saas`                  |
+| Conecta Summit            | Conferência de negócios                  | Eventos & ingressos    | `/?demo=conferencia`           |
+| Linha Arquitetura         | Arquitetura & interiores                 | Sites & captação       | `/?demo=arquitetura`           |
+| Studio Bella              | Salão de Beleza                          | Agendas & serviços     | `/?demo=salao`                 |
+| Casa Nativa               | Casa & decoração                         | Lojas & catálogos      | `/?demo=decoracao`             |
+| Forno 27                  | Pizzaria                                 | Cardápios & delivery   | `/?demo=pizzaria`              |
+| Vértice Seguros           | Corretora de seguros                     | CRM & vendas           | `/?demo=seguros`               |
+| Conta Certa               | Escritório contábil                      | Financeiro & BPO       | `/?demo=contabilidade`         |
+| Base Engenharia           | Construção & engenharia                  | Projetos & operação    | `/?demo=construcao`            |
+| Hello Escola              | Escola de idiomas                        | Cursos & educação      | `/?demo=idiomas`               |
+| Metro Comercial           | Imóveis comerciais                       | Imóveis & espaços      | `/?demo=comercial`             |
+| Vai Express               | Entregas urbanas                         | Logística & entregas   | `/?demo=motoboy`               |
+| Viva Condomínio           | Gestão condominial                       | Suporte & solicitações | `/?demo=condominio`            |
+| Fabril                    | Produção industrial                      | Estoque & produção     | `/?demo=industria`             |
+| Círculo Clube             | Clube de benefícios                      | SaaS & assinaturas     | `/?demo=clube`                 |
+| Vibe Festival             | Festival cultural                        | Eventos & ingressos    | `/?demo=festival`              |
+| Horizonte                 | Consultoria empresarial                  | Sites & captação       | `/?demo=consultoria`           |
+| Barber 88                 | Barbearia Clássica                       | Agendas & serviços     | `/?demo=barbearia`             |
+| Volt Store                | Eletrônicos                              | Lojas & catálogos      | `/?demo=eletronicos`           |
+| Grão & Prosa              | Cafeteria                                | Cardápios & delivery   | `/?demo=cafeteria`             |
+| Solare                    | Energia solar                            | CRM & vendas           | `/?demo=energia-solar`         |
+| Lume Gestão               | Financeiro do varejo                     | Financeiro & BPO       | `/?demo=financeiro-loja`       |
+| Atlas Jurídico            | Escritório jurídico                      | Projetos & operação    | `/?demo=juridico`              |
+| Elo Academy               | Treinamento corporativo                  | Cursos & educação      | `/?demo=treinamento`           |
+| Refúgio                   | Hospedagem & temporada                   | Imóveis & espaços      | `/?demo=temporada`             |
+| Ponte Distribuição        | Distribuição B2B                         | Logística & entregas   | `/?demo=distribuidora`         |
+| Repara                    | Assistência técnica                      | Suporte & solicitações | `/?demo=assistencia`           |
+| Torque Oficina            | Oficina mecânica                         | Estoque & produção     | `/?demo=oficina`               |
+| Grão Clube                | Assinatura de café                       | SaaS & assinaturas     | `/?demo=assinatura-cafe`       |
+| Mão na Massa              | Workshops práticos                       | Eventos & ingressos    | `/?demo=workshop`              |
+| Luz Studio                | Fotografia & audiovisual                 | Sites & captação       | `/?demo=fotografia`            |
+| Clínica Horizonte         | Clínica Médica Integrada                 | Agendas & serviços     | `/?demo=clinica`               |
+| Aura Natural              | Cosméticos                               | Lojas & catálogos      | `/?demo=cosmeticos`            |
+| Leve Cozinha              | Marmitas & alimentação                   | Cardápios & delivery   | `/?demo=marmitas`              |
+| Ponto Agência             | Agência de marketing                     | CRM & vendas           | `/?demo=agencia-crm`           |
+| Raízes Social             | ONG & terceiro setor                     | Financeiro & BPO       | `/?demo=financeiro-ong`        |
+| Pulso Inovação            | Inovação corporativa                     | Projetos & operação    | `/?demo=inovacao`              |
+| Avança Mentoria           | Mentoria & carreira                      | Cursos & educação      | `/?demo=mentoria`              |
+| Junto Cowork              | Coworking                                | Imóveis & espaços      | `/?demo=coworking`             |
+| Pack Log                  | Logística de e-commerce                  | Logística & entregas   | `/?demo=logistica-ecommerce`   |
+| Elo Cliente               | Portal do cliente                        | Suporte & solicitações | `/?demo=portal-cliente`        |
+| Campo Gestão              | Agro & insumos                           | Estoque & produção     | `/?demo=agro`                  |
+| Liga Comunidade           | Comunidade profissional                  | SaaS & assinaturas     | `/?demo=comunidade`            |
+| Move Run                  | Evento esportivo                         | Eventos & ingressos    | `/?demo=esporte`               |
+| Metal Norte               | Indústria B2B                            | Sites & captação       | `/?demo=industria-site`        |
+| Essenza Estética Avançada | Clínica Estética & Bem-estar             | Agendas & serviços     | `/?demo=estetica`              |
+| Mimo Pet                  | Produtos pet                             | Lojas & catálogos      | `/?demo=pet-commerce`          |
+| Doce Atelier              | Confeitaria                              | Cardápios & delivery   | `/?demo=confeitaria`           |
+| Norte Consultoria         | Consultoria B2B                          | CRM & vendas           | `/?demo=consultoria-crm`       |
+| Solo Finance              | Profissionais autônomos                  | Financeiro & BPO       | `/?demo=financeiro-freelancer` |
+| Fluxo Operações           | Operação de PME                          | Projetos & operação    | `/?demo=operacao`              |
+| Oficina Criativa          | Cursos criativos                         | Cursos & educação      | `/?demo=cursos-criativos`      |
+| Celebra Espaços           | Locação de espaços                       | Imóveis & espaços      | `/?demo=espacos`               |
+| Organiza                  | Almoxarifado                             | Estoque & produção     | `/?demo=almoxarifado`          |
+| Feira Local               | Feira de empreendedores                  | Eventos & ingressos    | `/?demo=feira`                 |
+| PIT Lab                   | Projetos de impacto                      | Sites & captação       | `/?demo=impacto`               |
+| Espaço Mente Psicologia   | Consultório de Psicologia & Psicoterapia | Agendas & serviços     | `/?demo=psicologia`            |
+| Nexo Atacado              | Atacado B2B                              | Lojas & catálogos      | `/?demo=atacado`               |
+| PetCare & Estética Animal | Centro de Estética e Cuidados Pet        | Agendas & serviços     | `/?demo=petshop`               |
+| AtendeMais Hub            | Serviços & Atendimento                   | Agendas & serviços     | `/?demo=generico`              |

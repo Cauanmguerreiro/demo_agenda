@@ -1,6 +1,6 @@
 {
-  "name": "Agendamentos & Gestão Multi-Segmento",
-  "description": "Plataforma profissional de agendamentos e gestão de atendimentos adaptável para múltiplos segmentos de negócios com motor de demos e personalização visual.",
+  "name": "CodeBrand Showcase",
+  "description": "70 demonstrações interativas para 14 famílias de soluções digitais, com lojas, CRM, financeiro, projetos, cursos, imóveis, logística, eventos e serviços.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": []
 }
