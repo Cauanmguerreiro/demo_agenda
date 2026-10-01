@@ -52,7 +52,7 @@
 - [x] Document workflows, 70 profile inventory and honest demo limitations.
 - [x] Review the complete diff and resolve important issues.
 - [x] Run clean installation and final checks.
-- [ ] Push the feature branch and open a PR.
+- [x] Push the feature branch and open a PR.
 
 ## Verification record
 
@@ -61,3 +61,5 @@
 - A separate visual inspection found clipped gallery copy on mobile; a geometry regression test now protects the corrected grid sizing.
 - Clean `npm ci`, TypeScript, production build and formatting pass.
 - Independent code review found no critical issues; cart restoration, movement validation and lazy-content mobile checks were corrected. Browser readiness now verifies its own server startup.
+
+Delivery: https://github.com/Cauanmguerreiro/demo_agenda/pull/1

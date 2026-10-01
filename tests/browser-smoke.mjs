@@ -4,6 +4,7 @@ const require = createRequire(import.meta.url);
 import { chromium } from "@playwright/test";
 import { spawn } from "node:child_process";
 import { dirname, join } from "node:path";
+import { stripVTControlCharacters } from "node:util";
 const origin = process.env.DEMO_TEST_URL || "http://127.0.0.1:3000";
 let server;
 if (!process.env.DEMO_TEST_URL) {
@@ -27,7 +28,9 @@ if (!process.env.DEMO_TEST_URL) {
     if (server.exitCode !== null)
       throw new Error("Demo server exited: " + serverOutput);
     try {
-      ready = serverOutput.includes("Local:") && (await fetch(origin)).ok;
+      ready =
+        stripVTControlCharacters(serverOutput).includes("Local:") &&
+        (await fetch(origin)).ok;
     } catch {}
     if (ready) break;
     await new Promise((resolve) => setTimeout(resolve, 100));
